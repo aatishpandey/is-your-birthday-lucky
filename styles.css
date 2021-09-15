@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.birthday{
+    padding: 5rem;
+    margin: auto;
+    text-align: center;
+}
+
+#date-of-birth{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#lucky-number{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#btn-check-number{
+    
+}
+
+.input-label{
+
+}
