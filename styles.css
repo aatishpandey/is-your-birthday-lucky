@@ -1,11 +1,20 @@
+:root{
+    --primary-color :#F87171;
+    --secondary-color:#EF4444;
+}
+
+
 body{
     margin: 0;
+    background-color: var(--primary-color);
 }
 
 .birthday{
     padding: 5rem;
     margin: auto;
     text-align: center;
+    width: 60%;
+    font-size: 1.2rem;
 }
 
 #date-of-birth{
@@ -13,6 +22,11 @@ body{
     margin: auto;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    width: 300px;
+    height: 7vh;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid var(--secondary-color);
 }
 
 #lucky-number{
@@ -20,12 +34,25 @@ body{
     margin: auto;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
+    width: 300px;
+    height: 7vh;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid var(--secondary-color);
 }
 
 #btn-check-number{
-    
+    width: 175px;
+    height: 7vh;
+    font-weight:400;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid var(--secondary-color);
+    background-color: hsl(352, 78%, 85%);
 }
 
 .input-label{
-
+    font-size: 1.1rem;
+    font-weight: bold;
 }
